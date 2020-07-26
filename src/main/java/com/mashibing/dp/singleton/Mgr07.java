@@ -2,7 +2,7 @@ package com.mashibing.dp.singleton;
 
 /**
  * 静态内部类方式
- * JVM保证单例
+ * JVM保证单例：内部静态类只有在调用的时候才会被加载
  * 加载外部类时不会加载内部类，这样可以实现懒加载
  */
 public class Mgr07 {

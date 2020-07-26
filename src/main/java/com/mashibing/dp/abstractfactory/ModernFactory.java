@@ -1,7 +1,7 @@
 package com.mashibing.dp.abstractfactory;
 
 
-public class ModernFactory extends AbastractFactory {
+public class ModernFactory extends AbstractFactory {
     @Override
     Food createFood() {
         return new Bread();

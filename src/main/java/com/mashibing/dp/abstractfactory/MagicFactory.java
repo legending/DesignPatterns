@@ -1,6 +1,6 @@
 package com.mashibing.dp.abstractfactory;
 
-public class MagicFactory extends AbastractFactory {
+public class MagicFactory extends AbstractFactory {
     @Override
     Food createFood() {
         return new MushRoom();
